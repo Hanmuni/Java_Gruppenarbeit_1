@@ -6,6 +6,8 @@ public class Player extends Club {
     private String position;
 
     public static boolean activePlayer = true;
+
+
     public Player(String playerName, int age, String position ){
         this.playerName= playerName;
         this.age = age;

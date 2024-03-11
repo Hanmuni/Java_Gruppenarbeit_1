@@ -10,7 +10,14 @@ public class Singer {
         this.genre = genre;
         this.age = age;
     }
-
+    @Override
+    public String toString() {
+        return "Singer{" +
+                "name='" + name + '\'' +
+                ", genre='" + genre + '\'' +
+                ", age=" + age +
+                '}';
+    }
     public String getSingerName() {
         return name;
     }
