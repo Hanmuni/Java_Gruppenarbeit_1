@@ -1,4 +1,6 @@
-public class Player {
+package club;
+
+public class Player extends Club {
     private String playerName;
     private int age;
     private String position;

@@ -1,3 +1,5 @@
+package club;
+
 public class Singer {
     private String name;
     private String genre;
